@@ -136,7 +136,7 @@ sex_histogram <- ggplot(feather_clean, aes(x = Wing)) +
   theme_bw()
 
 ggsave("output/sex_histogram.png") ##saving the plot
-knitr::include_graphics("output/sex_histogram.png") ## To include the figure
+#knitr::include_graphics("output/sex_histogram.png") ## To include the figure
 
 t.test(Wing ~ PCRsex, data = feather_clean)
 
@@ -149,7 +149,7 @@ Wing chord length differed significantly for both sex (df = 1, F = 28.3 ,p < 0.0
 model_wing <- lm(Wing ~ PCRMorph * PCRsex, data = feather_clean)
 #examine model
 wing_assumption <- autoplot(model_wing, smooth.colour = NA)
-wing_assumption
+#wing_assumption
 
 anova(model_wing)
 
