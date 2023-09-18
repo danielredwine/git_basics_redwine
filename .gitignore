@@ -20,7 +20,10 @@
 
 # RStudio files
 .Rproj.user/
+<<<<<<< HEAD
 .previous_index.html
+=======
+>>>>>>> parent of 9deadfb (Delete .gitignore)
 
 # produced vignettes
 vignettes/*.html
@@ -48,3 +51,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+<<<<<<< HEAD
+=======
+
+# To ignore
+./previous_index.html
+./00_markdown_wtsp.Rmd
+./output/
+./images/
+./scripts/
+>>>>>>> parent of 9deadfb (Delete .gitignore)
