@@ -49,8 +49,8 @@ po/*~
 rsconnect/
 
 # To ignore
-previous_index.html
-00_markdown_wtsp.Rmd
-output/
-images/
-scripts/
+./previous_index.html
+./00_markdown_wtsp.Rmd
+./output/
+./images/
+./scripts/
