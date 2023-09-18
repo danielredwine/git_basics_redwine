@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# gitignore is used to ignore files that ARE NOT ALREADY TRACKED
+# gitignore does not affect files that are already being tracked
+# Files must be added to gitignore before they are committed and tracked
+# Once you add a file, commit, and push it's up and would have to be removed from tracking 
